@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 import SearchInput from './SearchInput';
 import TodoTable from './TodoTable';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
-import CreateQuestionPopup from '../../components/CreateQuestionPopup';
+import CreateQuestionPopup from '../../components/CreateTaskPopup';
 
 export default function Todo() {
 
@@ -21,12 +21,12 @@ export default function Todo() {
           {/* <Header /> */}
           <Container>
             <Box sx={{marginTop:3,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
-              <Box>
-                FAQ Manager - iLabs
+              <Box >
+                Todo Manager - NeuroDigiz
               </Box>
               <Box>
-                <Button variant="outlined" startIcon={<AddCircleIcon />} onClick={()=>setNewQuestionPopup(true)} size="small" >
-                  Add New Question
+                <Button variant="outlined" color="secondary" startIcon={<AddCircleIcon />} onClick={()=>setNewQuestionPopup(true)} size="small" >
+                  Add New Task
                 </Button>
               </Box>
             </Box>

@@ -1,3 +1,9 @@
+# Start the Todo app using `npm start`
+# Then use this user id & pwd to login
+User Name : admin
+Password : admin
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

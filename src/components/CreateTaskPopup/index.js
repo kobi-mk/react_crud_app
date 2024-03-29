@@ -110,7 +110,7 @@ export default function CreateQuestionPopup({setNewQuestionPopup}) {
         open={open}
       >
         <BootstrapDialogTitle id="customized-dialog-title" onClose={handleClose} style={{textAlign:"center"}}>
-          Create New Question
+          Create New Task
         </BootstrapDialogTitle>
         <DialogContent dividers>
 
@@ -118,7 +118,7 @@ export default function CreateQuestionPopup({setNewQuestionPopup}) {
                 size="small"
                 error={error.question}
                 id="outlined-error-helper-text"
-                label="question"
+                label="Task"
                 name="question"
                 value={state.question}
                 helperText={error.question && !state.question ? "This field is required" :state.question.length > 500 ? "This field is is too length":""}
@@ -148,7 +148,7 @@ export default function CreateQuestionPopup({setNewQuestionPopup}) {
             </TextField>            
         </DialogContent>
         <DialogActions>
-            <Button variant="contained" color="primary" fullWidth onClick={handleSubmit} style={{marginTop:20}}>
+            <Button variant="contained" color="secondary" fullWidth onClick={handleSubmit} style={{marginTop:20}}>
                 Create
             </Button>
         </DialogActions>

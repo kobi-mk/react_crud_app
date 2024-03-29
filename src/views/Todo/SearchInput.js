@@ -17,7 +17,7 @@ export default function SearchInput({handleSearch}) {
                 <TextField fullWidth placeholder="Search..." id="fullWidth" size="small" InputLabelProps={{ shrink: false }} onChange={handleInputChange} />
             </Grid>
             <Grid item xs={4} sm={3} sx={{paddingLeft:2}}>
-                <Button variant="contained" fullWidth sx={{height:"40px"}} onClick={()=>handleSearch(searchKey)}>Search</Button>
+                <Button variant="contained" color="secondary" fullWidth sx={{height:"40px"}} onClick={()=>handleSearch(searchKey)}>Search</Button>
             </Grid>
         </Grid>
     </Paper>

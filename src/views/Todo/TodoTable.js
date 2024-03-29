@@ -81,13 +81,13 @@ export default function TodoTable() {
           <TableHead>
             <TableRow>
                 <TableCell>
-                    #
+                    Num
                 </TableCell>
-                <TableCell>
-                    Question
-                </TableCell>
-                <TableCell>
+                {/* <TableCell>
                     Category
+                </TableCell> */}
+                <TableCell>
+                    Tasks
                 </TableCell>
                 <TableCell>
                     Status
@@ -106,9 +106,9 @@ export default function TodoTable() {
                     <TableCell>
                         {row.id}
                     </TableCell>
-                    <TableCell>
-                        {row.id}
-                    </TableCell>
+                    {/* <TableCell>
+                        {row.category}
+                    </TableCell> */}
                     <TableCell>
                         {row.title}
                     </TableCell>

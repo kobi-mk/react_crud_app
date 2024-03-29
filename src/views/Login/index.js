@@ -105,6 +105,7 @@ export default function Login() {
             />
             <Button
               type="submit"
+              color="secondary"
               fullWidth
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
